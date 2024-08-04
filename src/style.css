@@ -1,0 +1,246 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh;
+    background-color:#333 ;
+}
+*{
+    box-sizing: border-box !important;
+}
+/* h1,h2,h3,p{
+    margin: 0 !important; 
+} */
+.logo-text>h1 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.header-top{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.header-top>.logo>figure>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.header-top>.logo>figure{
+    width: 200px;
+}
+.questions-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.loading-content{
+    width: 100px;
+}
+.loading-content>p{
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+.circle-loader{
+    display: flex;
+    justify-content: space-around;
+}
+.circle-loader>span{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: Loading .5s  infinite alternate;
+}
+.circle-loader>span:nth-of-type(2){
+    animation-delay: .2s;
+}
+.circle-loader>span:nth-of-type(3){
+    animation-delay: .4s;
+}
+.circle-loader>span:nth-of-type(odd){
+    background-color: #aaa !important;
+}
+@keyframes Loading{
+    
+    to{
+        transform: translateY(10px);
+    }
+}
+.erorr>p{
+    color: #fff;
+}
+.erorr{
+    background-color: #555;
+    padding: .5rem 2rem;
+    border-radius: 30px;
+}
+.start-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+.start-page>h3{
+    font-size: 3rem ;
+    
+}
+.start-page>h3,.start-page>p{
+    margin: 0 !important; 
+}
+.start-page>p{
+    font-size: 2rem ;
+}
+.start-page>button{
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    
+    outline: none !important;
+    background-color: #555;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition-duration: .3s;
+    border: 1px solid transparent ;
+
+}
+.start-page>button:hover{
+    border: 1px solid #555 !important;
+    background-color: transparent;
+}
+.question-content{
+    width: 40%;
+ 
+    
+}
+.question-content,.quiz-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.quiz-item{
+    gap: 10px;
+}
+.status-question>h4{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0 !important; 
+
+}
+.status-question{
+    color: #fff;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+menu{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%; 
+}
+.quiz-item>button{
+    width: 100%;
+    padding: 1rem;
+    background-color: #555;
+    transition-duration:.3s ;
+    border: 1px solid transparent;
+    font-size: 1.3rem;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.quiz-item>button:hover{
+    transform: translateX(20px);
+    background-color: transparent !important;
+    border: 1px solid #555 !important;
+
+}
+.correct{
+    background-color: #1c899D !important;
+}
+.wrong{
+    background-color: #Ec9846 !important ;
+}
+.answer{
+    transform: translateX(20px);
+    
+}
+.btn-next{
+    background-color: #555;
+   
+    color: #fff;
+    border: none !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 40px;
+}
+.down>button{
+    padding: 0 1rem !important;
+}
+.progress-content{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.info-question{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    
+}
+.line-container{
+    display: block;
+    width: 100%;
+    background-color: rgb(194, 199, 202);
+    border-radius: 10px;
+    height: 10px;
+    
+}
+.line-container>span{
+    display: block;
+    background-color: #1c899D;
+    border-radius: 10px;
+    height: 100%;
+}
+.restart-content{
+    padding:.5rem 2rem;
+    background-color: #1c899D;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.restart-content>p{
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 !important;
+
+}
+.down>p{
+    background-color: #555;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    margin: 0 !important;
+    color: #fff;
+}

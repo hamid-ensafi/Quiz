@@ -1,0 +1,20 @@
+{
+    "questions":[
+    {
+        "question":"what is your favorite food ?",
+        "options":["kebab","mast","khiyar","khiyar shoor"],
+        "correctOption":"kebab",
+        "points":10
+    },{
+        "question":"what is your name ?",
+        "options":["ali","hamid","hadi","mahmood"],
+        "correctOption":"hamid",
+        "points":20
+    },
+    {
+        "question":"what is your last name ?",
+        "options":["asghari","amiri","ensafi","nokhodi"],
+        "correctOption":"ensafi",
+        "points":30
+    }]
+}
