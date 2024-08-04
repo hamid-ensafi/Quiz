@@ -9,7 +9,7 @@
 
 
 
-- 🔗 [Demo Project]([https://hamid-ensafi.github.io/personal-web/](https://quiz-application225.netlify.app))
+- 🔗 [Demo Project]([https://hamid-ensafi.github.io/personal-web/](https://quiz-application225.netlify.app]))
 
 - 👨‍💻 Developed by hamid ensafi
 
